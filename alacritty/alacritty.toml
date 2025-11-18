@@ -1,0 +1,23 @@
+# This will be my Alacritty configurations
+
+[window]
+decorations = "none"
+dynamic_padding = true
+padding = { x = 3, y = 3 }
+opacity = 0.8
+blur = true
+
+[scrolling]
+multiplier = 7
+
+[font]
+offset = { y = 8 }
+
+[colors]
+cursor = { cursor = "#c782f5" }
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[terminal]
+shell = { program = "/bin/zsh", args = ["-l"] }
