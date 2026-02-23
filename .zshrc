@@ -38,7 +38,7 @@ alias caffeinate="systemd-inhibit"
 alias pio="/home/ozdotdotdot/.platformio/penv/bin/platformio"
 alias lights="curl http://100.122.255.109:8123/api/webhook/togglelights"
 
-alias say="~/Documents/qol-scripts/say.sh"
+alias say="~/Documents/qol-scripts/google-home-say/say.sh"
 
 timer() {
     timerr "$@" && say "Timer done"
